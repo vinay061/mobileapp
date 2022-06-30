@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:todolist/pages/home_page.dart';
+import 'package:hive_flutter/hive_flutter.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,7 +17,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: ,
+      home: HomePage(),
     );
   }
 }
